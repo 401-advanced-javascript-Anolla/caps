@@ -6,8 +6,8 @@
 
 ### Links and Resources
 
-- [submission PR](http://xyz.com)
-- [ci/cd](http://xyz.com) (GitHub Actions)
+- [submission PR](https://github.com/401-advanced-javascript-Anolla/caps/pull/1)
+- [ci/cd](https://github.com/401-advanced-javascript-Anolla/caps/pull/1/checks?check_run_id=770535990) (GitHub Actions)
 <!-- - [back-end server url](http://xyz.com) (when applicable)
 - [front-end application](http://xyz.com) (when applicable) -->
 
