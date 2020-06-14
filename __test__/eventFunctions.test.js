@@ -29,6 +29,7 @@ describe('events middleware', () => {
     events.emit('in-transit', order);
     expect(consoleSpy).toHaveBeenCalledWith('Thank you');
   });
+  
   it('pickup', () => {
     let data = {
       storeName: 'test store',
@@ -39,6 +40,6 @@ describe('events middleware', () => {
     events.emit('pickup', data);
   
     expect(consoleSpy).toHaveBeenCalled();
-});
+  });
   
 });
