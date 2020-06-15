@@ -10,10 +10,10 @@ describe('events middleware', () => {
 
   it('delivered', () => {
     let order = {
-      storeName: 'test store',
-      orderId: 'test orderID',
-      customerName: 'test name',
-      address: 'test address',
+      storeName: 'store',
+      orderId: 'orderID',
+      customerName: 'name',
+      address: 'address',
     };
     events.emit('delivered', order);
     expect(consoleSpy).toHaveBeenCalledWith('Thank you');
@@ -21,10 +21,10 @@ describe('events middleware', () => {
 
   it('in transit', () => {
     let order = {
-      storeName: 'test store',
-      orderId: 'test orderID',
-      customerName: 'test name',
-      address: 'test address',
+      storeName: 'store',
+      orderId: 'orderID',
+      customerName: 'name',
+      address: 'address',
     };
     events.emit('in-transit', order);
     expect(consoleSpy).toHaveBeenCalledWith('Thank you');
@@ -32,10 +32,10 @@ describe('events middleware', () => {
   
   it('pickup', () => {
     let data = {
-      storeName: 'test store',
-      orderId: 'test orderID',
-      customerName: 'test name',
-      address: 'test address',
+      storeName: 'store',
+      orderId: 'orderID',
+      customerName: 'name',
+      address: 'address',
     };
     events.emit('pickup', data);
   
