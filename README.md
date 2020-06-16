@@ -1,4 +1,4 @@
-# LAB - Class 16
+# LAB - Class 17
 
 ## Project: caps
 
@@ -6,8 +6,8 @@
 
 ### Links and Resources
 
-- [submission PR](https://github.com/401-advanced-javascript-Anolla/caps/pull/1)
-- [ci/cd](https://github.com/401-advanced-javascript-Anolla/caps/runs/770776654) (GitHub Actions)
+- [submission PR](https://github.com/401-advanced-javascript-Anolla/caps/pull/2)
+- [ci/cd](https://github.com/401-advanced-javascript-Anolla/caps/runs/772083358) (GitHub Actions)
 <!-- - [back-end server url](http://xyz.com) (when applicable)
 - [front-end application](http://xyz.com) (when applicable) -->
 
