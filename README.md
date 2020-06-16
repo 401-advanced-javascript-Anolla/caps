@@ -16,9 +16,10 @@
 #### `.env` requirements
 
 - `STORE_NAME` - Anolla
+- `PORT` - 3000
 <!-- i.e.
 
-- `PORT` - Port Number
+
 - `MONGODB_URI` - URL to the running mongo instance/db --> -->
 
 #### How to initialize/run your application
